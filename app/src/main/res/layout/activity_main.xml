@@ -16,7 +16,7 @@
         android:id="@+id/btn_second"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="第二种" />
+        android:text="第二种 多行文本显示控件" />
 
     <Button
         android:id="@+id/btn_third"

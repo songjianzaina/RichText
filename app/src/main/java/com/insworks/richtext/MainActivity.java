@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.insworks.richtext.one.FirstTextActivity;
+import com.insworks.richtext.two.SecondTextActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -25,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_first://第一种 动态更改TextView的字体大小
                 startActivity(new Intent(getApplicationContext(), FirstTextActivity.class));
                 break;
-            case R.id.btn_second://第三方集成
-//                startActivity(new Intent(getApplicationContext(), SecondScannerActivity.class));
+            case R.id.btn_second://
+                startActivity(new Intent(getApplicationContext(), SecondTextActivity.class));
                 break;
      /*       case R.id.btn_third://自定义普通侧滑菜单 include布局
                 startActivity(new Intent(getApplicationContext(), ThirdImplementionsActivity.class));

@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".one.FirstTextActivity"></activity>
+        <activity android:name=".one.FirstTextActivity" />
+        <activity android:name=".two.SecondTextActivity"></activity>
     </application>
 
 </manifest>
